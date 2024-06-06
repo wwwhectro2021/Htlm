@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Página web Hectron2021</title>
+	
+    <link rel="shortcut icon" href="img/alexcgdesign.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+
+	
+	<style type="text/css">
+	
+	h1 {
+  text-align: center;
+}
+
+.carrusel {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.carrusel ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 1030px;
+  /* max-width: 510px; */
+  scroll-behavior: smooth;
+}
+
+.carrusel-fotos {
+  display: flex;
+  gap: 10px;
+  overflow: auto;
+}
+
+.carrusel-fotos img {
+  background: black;
+  border: 4px solid black;
+  width: 300px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.carrusel-menu {
+  display: none;
+}
+
+@media screen and (min-width: 500px) {
+  .carrusel-fotos {
+    overflow: hidden;
+  }
+
+  .carrusel-fotos img {
+    width: 500px;
+    height: 400px;
+  }
+  .carrusel-menu {
+    display: block;
+  }
+  .carrusel-menu img {
+    box-sizing: border-box;
+    width: 50px;
+    height: 40px;
+    border: 10px solid black;
+  }
+  .carrusel-menu img:hover {
+    border: none;
+  }
+}
+
+p {
+  text-align: center;
+}
+
+	
+	</style>
+	
+	
+	
+	
+
+
+
+</head>
+
+<body>
+
+	
+             	
+			<!-- Example single danger button -->
+   <header class="header">
+		<div class="container">
+		
+			<nav class="menu">
+				<a href="#">Inicio</a>
+				<a href="folio.html">Portafolio</a>
+				<a href="Servir.html">Servicio</a>
+				<a href="image/indeximg.html">Eventos</a>
+				<a href="comunicar.html">Informar</a>
+				
+			</nav>
+		</div>
+	
+        <section class="textos-header">
+		
+            <h1>Potencia tus Conocimiento a un 100%</h1>
+            <h2>Obra Luz del Mundo Mision 1 Cd. Bolívar</h2>
+			
+
+			
+			
+			
+        </section>
+	     
+    </header>
+		
+
+  <div class="carrusel">
+    <ul class="carrusel-fotos">
+      <li id="foto1"><img src="imgx/foto1.jpg" alt=""></li>
+      <li id="foto2"><img src="imgx/foto2.jpg" alt=""></li>
+      <li id="foto3"><img src="imgx/foto3.jpg" alt=""></li>
+      <li id="foto4"><img src="imgx/foto4.jpg" alt=""></li>
+      <li id="foto5"><img src="imgx/foto5.jpg" alt=""></li>
+      <li id="foto6"><img src="imgx/foto6.jpg" alt=""></li>
+    </ul>
+    <ul class="carrusel-menu">
+      <li><a href="#foto1"><img src="imgx/foto1.jpg" alt=""></a></li>
+      <li><a href="#foto2"><img src="imgx/foto2.jpg" alt=""></a></li>
+      <li><a href="#foto3"><img src="imgx/foto3.jpg" alt=""></a></li>
+      <li><a href="#foto4"><img src="imgx/foto4.jpg" alt=""></a></li>
+      <li><a href="#foto5"><img src="imgx/foto5.jpg" alt=""></a></li>
+      <li><a href="#foto6"><img src="imgx/foto6.jpg" alt=""></a></li>
+    </ul>
+  </div>
+  <p> Ir a la serie <a href="https://www.youtube.com/channel/UCybT2dbXLIlcG-I8WorCOGg"
+      target="_blank"> Canal de  Videos   HTML, CSS y JS</a> por Hector Rondon</p>
+			
+	
+	<script src="https://utteranc.es/client.js"
+        repo="[ENTER REPO HERE]"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+	
+	
+    <main>	
+	
+        <section id="contenedor sobre-nosotros">
+            <h2 class="titulo">La Propuesta del Señor</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="img/ilustracion2.svg" alt="" class="imagen-about-us">
+                <div class="contenido-textos">
+                    <h3><span>1</span>La Propuestas</h3>
+                    <p>"Venid a mí todos los que estáis trabajados y cargados
+					y yo os haré descansar"-Mt.11:28.</p>
+                    <h3><span>2</span>La Identidad</h3>
+                    <p>"Yo soy el camino, y la verdad, y la vida…”,Jn 14:5.
+					¡Y así es!."Él es la fuente de nuestro consuelo,
+					la inspiración de nuestra vida,nuestro salvador".</p>
+                </div>
+            </div>
+        </section> 
+		
+        <section id="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">Portafolio</h2>
+                <div class="galeria-port">
+				
+				
+                    <div class="imagen-port">
+                        <img src="img/img1.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img2.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img3.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img4.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img5.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img6.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img7.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img8.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="clientes contenedor">
+            <h2 class="titulo">Que dicen nuestros Seguidores</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/face1.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Marta</h4>
+                        <p>Él es el camino la verdad y  la  vida!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/face2.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Naty</h4>
+                        <p> Él es el camino la verdad y  la  vida!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about-services">
+            <div class="contenedor">
+			
+                <h2 class="titulo">Nuestros servicios</h2>
+                <div class="servicio-cont">
+                    <div class="servicio-ind">
+                        <img src="img/ilustracion1.svg" alt="">
+                        <h3>Educación</h3>
+                        <p>Lograr que nuestros seguidores adquieran nuevos conocimientos?</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/ilustracion4.svg" alt="">
+                        <h3>Comunicación</h3>
+                        <p>Trasmitir a nuestros seguidores donde esta la  Verdad?</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/ilustracion3.svg" alt="">
+                        <h3>Servicio</h3>
+                        <p> Ayudar a nuestros seguidores a tomar el camino correcto ?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+  
+
+  </main>
+    <footer>
+	
+	
+        <div id="contenedor-footer">
+            <div class="content-foo">
+                <h4>Phone</h4>
+                <p>04260349752</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>04260349752</p>
+            </div>
+            <div class="content-foo">
+                <h4>Location</h4>
+                <p>Direccion: Av.  San Martin  con Caracas-Grimaldi-Cd. Bolivar- Venezuela</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Hectron2021 Design | Hector Rondon</h2>
+    </footer>
+</body>
+
+</html>
